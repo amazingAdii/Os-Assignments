@@ -1,5 +1,41 @@
 # Os-Assignments
 
+# How to Run Programs ? 
+	Assignment 1 :  bash assign1.sh
+	Assignment 2 (a) :  gcc assign2_a.c 
+			    ./a.out
+	Assignment 2 (b) :  gcc assign2_b_ex.c -o e
+			    gcc assign2_b_bi.c -o b
+			    ./e ./b
+			    
+	Assignment 3 :  gcc assign3.c -pthread
+			./a.out
+			
+	Assignment 4 :  gcc assign4.c -pthread
+			./a.out
+			
+	Assignment 5 :  gcc assign5.c -pthread
+			./a.out
+			
+	Assignment 6 :  gcc assign6.c -pthread
+			./a.out	
+			
+	Assignment 7 (a) :  gcc assign7_named.c -pthread
+			    ./a.out
+ 	Assignment 7 (b) :  gcc assign7_unnamed.c -pthread
+			    ./a.out
+			    
+ 	Assignment 8 :  This is a simultaneous operation 
+			Step 1 : on Terminal 1  : gcc assign8_write.c -o writer
+						  ./writer
+			Step 2 : on Terminal 2  : gcc assign8_read.c -o reader
+						  ./reader
+						  
+	Assignment 9 : gcc assign9.c
+	     	       ./a.out
+
+ 
+# Statements
 Assignment No. 1: 
 
 	Shell programming
