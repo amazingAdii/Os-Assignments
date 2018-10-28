@@ -20,8 +20,11 @@
 	Assignment 6 :  gcc assign6.c -pthread
 			./a.out	
 			
-	Assignment 7 (a) :  gcc assign7_named.c -pthread
-			    ./a.out
+	Assignment 7 (a) :  This is a simultaneous process 
+				Step1(On terminal 1) : gcc assign7_named_write.c -o write
+			    			       ./write
+				Step2(On terminal 2) : gcc assign7_named_read.c -o read
+						       ./read
  	Assignment 7 (b) :  gcc assign7_unnamed.c -pthread
 			    ./a.out
 			    
